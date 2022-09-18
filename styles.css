@@ -139,6 +139,19 @@ h1 {
     background-color: #be3144;
 }
 
+.show-all span{
+	display: inline-block;
+	margin-left:5px;
+	transition-duration: 0.3s;
+}
+
+.show-all:hover span{
+	transform: translateX(3px) scale(1.2);
+}
+
+
+
+
 .contact{
     background-color: #303841;
     padding-top:9rem;
@@ -167,11 +180,17 @@ h1 {
     align-items: center;
     margin-left:2rem;
     gap:3px;
+	transform: translateY(-5px);
+	transition-duration: 0.5s;
 }
 
 .contact ul li:hover{
     cursor:pointer;
+	transform: translateY(5px);
+	transition-duration: 0.5s;
 }
+
+
 
 .contact ul li img{
     width:30px;
